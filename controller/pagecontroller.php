@@ -27,5 +27,7 @@ class PageController extends Controller {
 	 * @NoAdminRequired
 	 */
 	public function getOtg($path) {
+		$map = ["message" => "hello"];
+		return new DataResponse($map);
 	}
 }
