@@ -16,6 +16,6 @@
  */
 return [
     'routes' => [
-	   ['name' => 'page#get_info', 'url' => '/getinfo', 'verb' => 'POST'],
+	   ['name' => 'page#get_otg', 'url' => '/getotg', 'verb' => 'GET'],
     ]
 ];

@@ -26,6 +26,6 @@ class PageController extends Controller {
 	 * @NoCSRFRequired
 	 * @NoAdminRequired
 	 */
-	public function getInfo($path) {
+	public function getOtg($path) {
 	}
 }
